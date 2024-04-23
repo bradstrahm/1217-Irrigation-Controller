@@ -6,9 +6,9 @@
 </header>
 <body>
     <p>System Master</p>
-        <input type="radio" name="Master" value="0" id="Option 1">
+        <input type="radio" name="Master" value="OFF" id="Option 1">
         <label for="Option 1">OFF</label><br>
-        <input type="radio" name="Master" value="Auto" id="Option 2">
+        <input type="radio" name="Master" value="1" id="Option 2">
         <label for="Option 2">ON</label>
         <br><hr><br>
     <!-- column heading for control table -->
@@ -29,9 +29,9 @@
         <!-- Start of first row of control table -->
         <div class="zonenumber">1</div>
         <div class="item name 1">Lawn East Front</div>
-        <input type="time" name="Z1Start" value="Z1Start" id="Z1Start">
-        <input type="time" name="Z1End" value="Z1End" id="Z2End">
-        <select name="Z1Freq" id="Freq">
+        <input type="time" name="Z1Start" value="01:30" id="Z1Start">
+        <input type="time" name="Z1End" value="02:30" id="Z2End">
+        <select name="Z1Freq" id="Z1Freq">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -49,14 +49,14 @@
             <option value="On">On</option>
         </select>
         <p>OFF</p>
-        <input type="date" name="Z1AutoRun" value="Z1AutoRun" id="Z1AutoRun">
+        <input type="date" name="Z1AutoRun" value="2024-04-24" id="Z1AutoRun">
         <!-- End of first row of control table -->
         <!-- Start of second row of control table -->
         <div class="zonenumber">2</div>
         <div class="item name 2">Lawn Street Front</div>
-        <input type="time" name="Z2Start" value="Z2Start" id="Z2Start">
-        <input type="time" name="Z2End" value="Z2End" id="Z2End">
-        <select name="Z1Freq" id="Freq">
+        <input type="time" name="Z2Start" value="02:30" id="Z2Start">
+        <input type="time" name="Z2End" value="03:30" id="Z2End">
+        <select name="Z2Freq" id="Z2Freq">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -74,7 +74,7 @@
             <option value="On">On</option>
         </select>
         <p>OFF</p>
-        <input type="date" name="Z2AutoRun" value="Z2AutoRun" id="Z2AutoRun">
+        <input type="date" name="Z2AutoRun" value="2024-04-24" id="Z2AutoRun">
         <!-- End of first row of control table -->
     </div>
  
