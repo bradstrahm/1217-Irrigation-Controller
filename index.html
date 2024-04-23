@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</header>
+<body>
+    <p>System Master</p>
+        <input type="radio" name="Master" value="0" id="Option 1">
+        <label for="Option 1">OFF</label><br>
+        <input type="radio" name="Master" value="Auto" id="Option 2">
+        <label for="Option 2">ON</label>
+        <br><hr><br>
+    <!-- column heading for control table -->
+    <div class="headings">
+        <div class="item head-1">Zone</div>
+        <div class="item head-2">Zone Name</div>
+        <div class="item head-3">Start Time</div>
+        <div class="item head-4">End Time</div>
+        <div class="item head-5">Frequency (days)</div>
+        <div class="item head-6">Zone Manual / Auto</div>
+        <div class="item head-7">Zone Off/On Command</div>
+        <div class="item head-8">Zone Off/On Status</div>
+        <div class="item head-9">Last Auto Run Date</div>
+    </div>
+    <hr>
+    <!-- Control table -->
+    <div class="zones">
+        <!-- Start of first row of control table -->
+        <div class="zonenumber">1</div>
+        <div class="item name 1">Lawn East Front</div>
+        <input type="time" name="Z1Start" value="Z1Start" id="Z1Start">
+        <input type="time" name="Z1End" value="Z1End" id="Z2End">
+        <select name="Z1Freq" id="Freq">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+        <select name="Z1Mode" id="Z1Mode">
+            <option value="Man">Man</option>
+            <option value="Auto">Auto</option>
+        </select>
+        <select name="Z1Comm" id="Z1Comm">
+            <option value="Off">Off</option>
+            <option value="On">On</option>
+        </select>
+        <p>OFF</p>
+        <input type="date" name="Z1AutoRun" value="Z1AutoRun" id="Z1AutoRun">
+        <!-- End of first row of control table -->
+        <!-- Start of second row of control table -->
+        <div class="zonenumber">2</div>
+        <div class="item name 2">Lawn Street Front</div>
+        <input type="time" name="Z2Start" value="Z2Start" id="Z2Start">
+        <input type="time" name="Z2End" value="Z2End" id="Z2End">
+        <select name="Z1Freq" id="Freq">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+        <select name="Z2Mode" id="Z2Mode">
+            <option value="Man">Man</option>
+            <option value="Auto">Auto</option>
+        </select>
+        <select name="Z2Comm" id="Z2Comm">
+            <option value="Off">Off</option>
+            <option value="On">On</option>
+        </select>
+        <p>OFF</p>
+        <input type="date" name="Z2AutoRun" value="Z2AutoRun" id="Z2AutoRun">
+        <!-- End of first row of control table -->
+    </div>
+ 
+
+
+
+
+    
+</body>

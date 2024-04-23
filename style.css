@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+}
+.headings{
+    display:grid;
+    grid-template-columns: 50px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.zonenumber{
+    margin: 0;
+    position:relative;
+    top: 25%;
+    text-align: center;
+}
+.item{
+    text-align: center;
+    margin-top: auto; 
+
+
+
+}
+.zones{
+    display:grid;
+    grid-template-columns: 50px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 40px 40px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
